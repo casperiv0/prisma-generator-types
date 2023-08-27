@@ -1,0 +1,23 @@
+{
+  "name": "prisma-generator-types",
+  "version": "1.0.0",
+  "description": "A custom Prisma Generator that outputs TypeScript types from your Prisma schema.",
+  "main": "dist/generator.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "prisma-generator-types": "dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@prisma/generator-helper": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "prettier": "^3.0.2",
+    "typescript": "^5.2.2"
+  }
+}
